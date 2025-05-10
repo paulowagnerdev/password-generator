@@ -1,0 +1,130 @@
+#container{
+    margin-top: 150px;
+    width: 800px;
+}
+
+#show-password-div{
+    display: flex;
+    position: relative;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+#password-div{
+    width: 100%;
+    
+}
+
+#password{
+    margin-left: 20px;
+    width: 640px;
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#copy-btn,
+#newpassword-btn{
+    transition: 0.1s;
+}
+
+#newpassword-btn:hover,
+#copy-btn:hover{
+    color: rgb(88, 88, 88);
+}
+
+
+
+#color-password-container{
+    height: 7px;
+    width: 100%;
+    background-color: rgb(9, 188, 84);
+    position: absolute;
+    bottom: 0;
+
+}
+
+#buttons-password-div{
+    margin-right: 50px;
+    font-size: 30px;
+    display: flex;
+    color: rgba(108, 108, 108, 0.696);
+    gap: 15px;
+}
+
+#make-password-div{
+    padding: 25px;
+    height: 230px;
+    background-color: white;
+    margin-top: 17px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#make-password-div h2{
+    font-size: 25px;
+}
+
+#div-line{
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+}
+#line{
+    height: 1px;
+    width: 100%;
+    border: 1px solid rgb(209, 209, 209);
+}
+
+#title-insert-number{
+    font-size: 18px;
+    margin: 25px 0px;
+}
+
+#div-input-and-checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#input-and-slicer-div{
+    margin-top: 5px;
+    gap: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#input-number{
+    width: 40px;
+    height: 40px;
+    -moz-appearance: textfield;
+    -webkit-appearance: none;   
+    appearance: none; 
+    border-radius: 5px;
+    border: 0.1px solid rgb(209, 209, 209);
+    padding-left: 7px;
+  
+}
+
+#input-slicer{
+    background-color: red;
+    width: 165px;
+}
+#div-checkbox-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 75px;
+}
+
+.checkbox-class{
+    display: flex;
+    gap: 3px;
+    justify-content: start;
+    align-items: center;
+    font-size: 18px;
+}
+
